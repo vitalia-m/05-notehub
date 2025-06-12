@@ -18,6 +18,7 @@ interface NoteHubSearchParams {
 }
 
 const myToken = import.meta.env.VITE_NOTEHUB_TOKEN;
+console.log("Token:", myToken);
 
 export async function fetchNotes(
   query: string,
